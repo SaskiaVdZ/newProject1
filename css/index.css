@@ -41,6 +41,7 @@ a:hover {
 h1 {
     color:#04AA6D;
     text-align: center;
+    font-size: 45px;
 }
 
 h3, p {
@@ -60,6 +61,7 @@ p, li{
 img {
     max-height: 450px;
     min-height: 250px;
+    padding: 5px;
 }
 
 section {
@@ -75,8 +77,12 @@ footer {
     font-size: x-small;
 }
 
+.källa {
+font-style: italic;
+font-size: smaller;
+}
 
-
+/* hidden text on hover image */
 .container {
     position: relative;
     width: 50%;
@@ -116,3 +122,5 @@ footer {
     font-size: 16px;
     padding: 16px 32px;
   }
+
+
